@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Özlenen Lezzetler</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+        <nav class="custom-navbar">
+    <div class="logo">Özlenen Lezzetler</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="menu.html"  class="active" >Menü</a></li>
+        <li><a href="about.html">Hakkımızda</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+    </ul>
+
+    <div class="nav-icons">
+    <a href="#"><i class="fas fa-user"></i></a>
+    <a href="#"><i class="fas fa-search"></i></a>
+    <a href="#" class="order-btn">Sipariş Ver</a>
+    </div>
+    </nav>
+
+    <section class="menu-section">
+    <div class="container">
+        <h2 class="section-title">Lezzet Menümüz</h2>
+        
+        <div class="filter-nav">
+            <button class="filter-btn active" data-filter="all">Hepsi</button>
+            <button class="filter-btn" data-filter="yoresel">Yöresel</button>
+            <button class="filter-btn" data-filter="hamur">Hamur İşi</button>
+            <button class="filter-btn" data-filter="tatli">Tatlılar</button>
+        </div>
+
+        <div class="menu-grid">
+            <div class="menu-card yoresel">
+                <div class="card-img"><img src="images/image.png" alt="İçli Köfte"></div>
+                <div class="card-info">
+                    <h5>İçli Köfte</h5>
+                    <p>Bol cevizli, tam kıvamında Urfa usulü.</p>
+                    <div class="card-footer"><span class="price">40 TL</span><button class="cart-btn"><i class="fas fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+
+            <div class="menu-card hamur">
+                <div class="card-img"><img src="images/image.png" alt="Ağzı Açık"></div>
+                <div class="card-info">
+                    <h5>Ağzı Açık</h5>
+                    <p>Kıymalı harcıyla çıtır Urfa hamur işi.</p>
+                    <div class="card-footer"><span class="price">35 TL</span><button class="cart-btn"><i class="fas fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+
+            <div class="menu-card hamur">
+                <div class="card-img"><img src="images/image.png" alt="Semsek"></div>
+                <div class="card-info">
+                    <h5>Peynirli Semsek</h5>
+                    <p>Özel Urfa peyniriyle hazırlanan kızartma.</p>
+                    <div class="card-footer"><span class="price">30 TL</span><button class="cart-btn"><i class="fas fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+
+            <div class="menu-card yoresel">
+                <div class="card-img"><img src="images/image.png" alt="Sarma"></div>
+                <div class="card-info">
+                    <h5>Etli Yaprak Sarma</h5>
+                    <p>İncecik sarılmış, ekşili ve lokum gibi.</p>
+                    <div class="card-footer"><span class="price">50 TL</span><button class="cart-btn"><i class="fas fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+
+            <div class="menu-card tatli">
+                <div class="card-img"><img src="images/image.png" alt="Kurabiye"></div>
+                <div class="card-info">
+                    <h5>Anne Kurabiyesi</h5>
+                    <p>Tereyağlı, ağızda dağılan taptaze kurabiyeler.</p>
+                    <div class="card-footer"><span class="price">25 TL</span><button class="cart-btn"><i class="fas fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+
+            <div class="menu-card tatli">
+                <div class="card-img"><img src="images/image.png" alt="Şıllık"></div>
+                <div class="card-info">
+                    <h5>Şıllık Tatlısı</h5>
+                    <p>Urfa'nın meşhur şerbetli ve cevizli klasiği.</p>
+                    <div class="card-footer"><span class="price">45 TL</span><button class="cart-btn"><i class="fas fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+
+            <div class="menu-card yoresel">
+                <div class="card-img"><img src="images/image.png" alt="Borani"></div>
+                <div class="card-info">
+                    <h5>Urfa Boranisi</h5>
+                    <p>Pazı ve yuvarlamayla hazırlanan özel yemek.</p>
+                    <div class="card-footer"><span class="price">60 TL</span><button class="cart-btn"><i class="fas fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+
+            <div class="menu-card yoresel">
+                <div class="card-img"><img src="images/image.png" alt="Dolma"></div>
+                <div class="card-info">
+                    <h5>Kuru Dolma</h5>
+                    <p>Güneşte kurutulmuş sebzelerle acılı dolma.</p>
+                    <div class="card-footer"><span class="price">55 TL</span><button class="cart-btn"><i class="fas fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+
+            <div class="menu-card tatli">
+                <div class="card-img"><img src="images/image.png" alt="Elmalı"></div>
+                <div class="card-info">
+                    <h5>Elmalı Kurabiye</h5>
+                    <p>Bol malzemeli ve pudra şekerli lezzet bombası.</p>
+                    <div class="card-footer"><span class="price">25 TL</span><button class="cart-btn"><i class="fas fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
